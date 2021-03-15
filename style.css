@@ -1,3 +1,26 @@
+
+body{
+  font-family:Spartan;
+  font-size:15px;
+}
+h1, .rating h4{
+  color:#502050;
+}
+.mission-statement p{
+  color:#937B92;
+}
+.rating-review{
+  background-color:#F7F2F7;
+  border-radius:2px;
+}
+.customer-review{
+  background-color:#502050;
+  border-radius:4px;
+  color:#FFFFFF;
+}
+.vertified{
+  color:#EE68A4;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
