@@ -4,8 +4,10 @@ body{
   font-family:Spartan;
   font-size:15px;
 }
+.main{
+}
 .mission-statement{
-  margin:50px;
+  margin:10px;
   padding:10px;
   height:280px;
   width:380px;
@@ -20,14 +22,20 @@ body{
   background-color:#F7F2F7;
   border-radius:10px;
 }
+.reviews{
+  display:flex;
+}
 .customer-review{
   background-color:#502050;
   border-radius:4px;
   color:#FFFFFF;
+  margin:30px;
+  padding:35px;
 }
 .customer-review img{
   border-radius:50%;
   float:left;
+  padding:10px;
 }
 .name{
   font-weight:bold;
@@ -61,8 +69,18 @@ body{
   .mission-statement p,.rating-review{
     text-align:center;
   }
+  .rating-review{
+    display:inline;
+  }
   .stars{
     padding-top:10px;
+  }
+  .reviews{
+    display:block;
+  }
+  .customer-review{
+    margin:0;
+    padding:0;
   }
   .customer-review img{
     padding:35px;
