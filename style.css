@@ -35,3 +35,38 @@ body{
 .star-review h4{
   padding-top:0.313em;
 }
+/*Desktop*/
+@media screen and (min-width:1025px){
+  body{
+    background-image:url("images/bg-pattern-top-desktop.svg");
+  }
+  .header-container{
+    display:flex;
+    margin:3.750em;
+  }
+  .mission-statement{
+    text-align:left;
+    width:34.375em;
+  }
+  .mission-statement h1{
+    padding:60px 60px 10px;
+    margin:50px 50px 0px;
+  }
+  .mission-statement p{
+    line-height:1.2;
+    padding:10px 60px 10px;
+    margin:5px 50px 0px;
+  }
+  .header-reviews{
+    margin:50px 60px 10px;
+  }
+  .star-review{
+    width:500px;
+  }
+  .star-review img{
+    float:left;
+  }
+  .star-review h4{
+    text-align:left;
+  }
+}
