@@ -1,97 +1,37 @@
+*{
+  margin:0;
+  padding:0;
+}
 body{
-  background-image:url("images/bg-pattern-top-desktop.svg");
+  background-image:url("images/bg-pattern-top-mobile.svg"),url("images/bg-pattern-bottom-mobile.svg");
   background-repeat:no-repeat;
-  font-family:Spartan;
-  font-size:15px;
+  font-family:Spartan, sans-serif;
+  font-size:0.938em;
 }
-.main{
+/*Header Content starts here*/
+.header-container{
+  margin:0.625em;
+  overflow:hidden;
 }
-.mission-statement{
-  margin:10px;
-  padding:10px;
-  height:280px;
-  width:380px;
+.mission-statement,.header-reviews{
+  text-align:center;
 }
-.mission-statement h1,.rating h4{
-    color:#502050;
+.mission-statement h1{
+  padding:2.5em 2.5em 1.25em;
+}
+.mission-statement h1,.star-review h4{
+  color:#502050;
 }
 .mission-statement p{
-    color:#937B92;
+  color:#937B92;
+  padding-bottom:3.438em;
 }
-.rating-review{
+.star-review{
   background-color:#F7F2F7;
-  border-radius:10px;
+  border-radius:0.625em;
+  margin:0.625em;
+  padding:0.625em;
 }
-.reviews{
-  display:flex;
-}
-.customer-review{
-  background-color:#502050;
-  border-radius:4px;
-  color:#FFFFFF;
-  margin:30px;
-  padding:35px;
-}
-.customer-review img{
-  border-radius:50%;
-  float:left;
-  padding:10px;
-}
-.name{
-  font-weight:bold;
-}
-.vertified{
-  color:#EE68A4;
-  font-weight:normal;
-}
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-@media screen and (max-width:850px){
-
-  body{
-    background-image:url("images/bg-pattern-top-mobile.svg"),url("images/bg-pattern-bottom-mobile.svg");
-    background-repeat:no-repeat;
-  }
-  .mission-statement{
-    margin:0;
-    padding:0;
-    height:200px;
-  }
-  .mission-statement h1{
-    margin-top:60px;
-    text-align:center;
-  }
-  .mission-statement p,.rating-review{
-    text-align:center;
-  }
-  .rating-review{
-    display:inline;
-  }
-  .stars{
-    padding-top:10px;
-  }
-  .reviews{
-    display:block;
-  }
-  .customer-review{
-    margin:0;
-    padding:0;
-  }
-  .customer-review img{
-    padding:35px;
-    height:55px;
-    width:55px;
-  }
-  .name{
-    padding-top:35px;
-  }
-  .statement{
-    padding:45px;
-    text-align:justify;
-  }
+.star-review h4{
+  padding-top:0.313em;
 }
