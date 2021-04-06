@@ -46,27 +46,37 @@ body{
   }
   .mission-statement{
     text-align:left;
+    margin-top:50px;
     width:34.375em;
   }
-  .mission-statement h1{
-    padding:60px 60px 10px;
-    margin:50px 50px 0px;
-  }
-  .mission-statement p{
-    line-height:1.2;
-    padding:10px 60px 10px;
-    margin:5px 50px 0px;
+  .mission-statement h1,.mission-statement p{
+    padding:0;
+    margin:20px;
+
   }
   .header-reviews{
     margin:50px 60px 10px;
   }
   .star-review{
+    margin:20px;
+    padding:15px;
     width:500px;
   }
   .star-review img{
     float:left;
+    padding:5px;
   }
   .star-review h4{
-    text-align:left;
+    text-align:right;
+    padding-right:90px;
+
+  }
+  #star-review-1{
+    position:relative;
+    right:45px;
+  }
+  #star-review-3{
+    position:relative;
+    left:40px;
   }
 }
