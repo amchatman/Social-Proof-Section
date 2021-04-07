@@ -35,7 +35,43 @@ body{
 .star-review h4{
   padding-top:0.313em;
 }
-/*Desktop*/
+/*Customer-review section*/
+.customer-container{
+  margin:5px;
+}
+.customer-review{
+  background-color:#502050;
+  border-radius:10px;
+  margin:15px;
+  padding:25px;
+}
+.customer-review img{
+  border-radius:50%;
+  padding:15px;
+  float:left;
+  height:50px;
+  width:50px;
+}
+.customer-review p{
+  color:#FFFFFF;
+  line-height:25px;
+}
+.customer-name{
+  font-weight:bold;
+  padding-top:15px;
+}
+.verified{
+  color:#EE68A4;
+}
+.customer-statement{
+  padding-top:30px;
+  margin:10px;
+}
+.attribution{
+  font-size:10px;
+  text-align:center;
+}
+/*Desktop queries*/
 @media screen and (min-width:1025px){
   body{
     background-image:url("images/bg-pattern-top-desktop.svg");
